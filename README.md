@@ -44,8 +44,14 @@ Arquivo: `vscodeserver.sh`
 - Configura senha fixa
 - Inicia o VS Code Server
 
-Senha padrão definida:12345678
-URL padrão: http://127.0.0.1:8080
+---
+
+## Senha padrão definida:12345678
+
+---
+
+## URL padrão: http://127.0.0.1:8080
+
 ---
 
 ## ▶️ Uso atual (modo desenvolvimento)
@@ -56,23 +62,41 @@ cd marxvenom-vscodeserver-app
 chmod +x vscodeserver.sh
 ./vscodeserver.sh
 
-⚠️ Este método é temporário
-No app final, todo esse processo será executado automaticamente sem interação manual.
+---
 
-🚀 Visão futura do app
+## ⚠️ Aviso importante
+
+Este método é temporário.
+
+No aplicativo final, todo esse processo será executado automaticamente, sem qualquer interação manual com o terminal, sem necessidade de copiar comandos e sem configuração pelo usuário.
+
+---
+
+## 🚀 Visão futura do app
+
 Funcionalidades planejadas:
-Botão Instalar VS Code
-Botão Iniciar / Parar servidor
-Exibição automática da senha
-Botão Copiar senha
-Botão Abrir VS Code
-Logs visuais integrados
-Terminal interno invisível ao usuário
-Detecção automática de dependências
-📱 Plataforma alvo
-Android
-Baseado em Termux como backend
-App nativo com interface própria
-📄 Licença
-Este projeto está em desenvolvimento ativo.
-Licença será totalmente definida posteriormente.
+
+- Botão **Instalar VS Code Server**
+- Botão **Iniciar / Parar servidor**
+- Exibição automática da senha
+- Botão **Copiar senha**
+- Botão **Abrir VS Code**
+- Logs visuais integrados
+- Terminal interno invisível ao usuário
+- Detecção automática de dependências
+
+---
+
+## 📱 Plataforma alvo
+
+- Android
+- Backend baseado em Termux
+- App nativo com interface própria
+- Terminal e navegador integrados ao app
+
+---
+
+## 📄 Licença
+
+Este projeto está em desenvolvimento ativo.  
+A licença será definida totalmente posteriormente.
